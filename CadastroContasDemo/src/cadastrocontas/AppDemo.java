@@ -11,7 +11,7 @@ public class AppDemo {
      */
     public static void main(String[] args) {
         CadContas cad = new CadContas();
-        ContaCorrente c1 = new ContaCorrente("Ze",1000,500.0);
+        ContaCorrente c1 = new ContaCorrente("Ze das couves",1000,500.0);
         cad.novaConta(c1);
         cad.novaConta(new ContaCorrente("Luiza",1001,1000.0));
         cad.novaConta(new ContaCorrente("Sergio",1002,2000.0));
